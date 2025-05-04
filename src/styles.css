@@ -1,0 +1,161 @@
+/* Custom styles for Vignan Attendance Portal */
+
+/* General styles */
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.App {
+  min-height: 100vh;
+}
+
+/* Card styles */
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e3e6f0;
+  font-weight: 500;
+}
+
+/* Dashboard stats cards */
+.card.text-center {
+  transition: transform 0.2s ease;
+}
+
+.card.text-center:hover {
+  transform: translateY(-5px);
+}
+
+/* Navbar styles */
+.navbar-dark {
+  background-color: #1e3a8a !important;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Table styles */
+.table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+/* Student type indicators */
+.text-danger {
+  font-weight: 500;
+}
+
+/* Login page styles */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+.login-card {
+  max-width: 450px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.input-field {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-field:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.login-btn {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.login-btn:hover {
+  background-color: #0069d9;
+}
+
+.toggle-password {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Form styles */
+.form-control:focus, .form-select:focus {
+  border-color: #1e3a8a;
+  box-shadow: 0 0 0 0.25rem rgba(30, 58, 138, 0.25);
+}
+
+.btn-primary {
+  background-color: #1e3a8a;
+  border-color: #1e3a8a;
+}
+
+.btn-primary:hover {
+  background-color: #172b6e;
+  border-color: #172b6e;
+}
+
+/* Alert styles */
+.alert {
+  border-radius: 8px;
+}
+
+/* Modal styles */
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e3e6f0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .table {
+    font-size: 0.9rem;
+  }
+} 
